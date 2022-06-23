@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav__text">
+        <div class="nav__logo">
+          <h1 class="nav__title">He said, She said</h1>
+          <h2 class="nav__subtitle">The Office Edition</h2>
+        </div>
+        <img
+          class="nav__img"
+          src="./assets/logo/logo.jpeg"
+          alt="the-office-logo"
+        />
+      </div>
+    </header>
+    <main>
+      <article class="hero">
+        <div class="hero__container">
+          <div class="hero__paper">
+            <h1 class="hero__quote"></h1>
+            <section class="answers">
+              <form class="answers__form">
+                <div class="answers__container">
+                  <label class="answers__answer">Loading...</label>
+                  <label class="answers__answer">Loading...</label>
+                  <label class="answers__answer">Loading...</label>
+                  <label class="answers__answer">Loading...</label>
+                </div>
+                <button type="reset" class="button button--skip">Skip</button>
+                <button type="submit" class="button">Submit</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/quote.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.nav {
+  background-color: black;
+  opacity: 0.8;
+  color: whitesmoke;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__text {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__text:hover {
+  text-shadow: 0 0.5px white;
+  box-shadow: 7px 2px whitesmoke;
+}
+.nav__logo {
+  padding: 1.45rem 1.875rem 1.15rem 1.875rem;
+}
+.nav__title {
+  font-size: 2rem;
+}
+.nav__subtitle {
+  font-size: 3.5rem;
+}
+.nav__img {
+  max-width: 8.75rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+}
+
+.hero {
+  background: url(../assets/images/scott-wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 84vh;
+  width: 100%;
+  opacity: 0.9;
+  padding: 10rem 4rem;
+  background-position: 0 25%;
+}
+.hero__container {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.hero__paper {
+  background: url(../assets/images/paper-template.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 40rem;
+  min-height: 20rem;
+  padding: 11rem 1rem 1rem 1rem;
+  border: 0.625rem solid #17459d;
+  border-radius: 1.563rem;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__paper--correct {
+  box-shadow: 10px 5px 20px 5px #2ecc71;
+}
+.hero__paper--wrong {
+  box-shadow: 10px 5px 20px 5px #e74c3c;
+}
+.hero__quote {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  color: #042045;
+}
+
+.answers {
+  margin-top: 2rem;
+}
+.answers__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.answers__container {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+.answers__answer {
+  width: 40%;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: solid 4px #2a3c5f;
+  transform: scale(1.1);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  background: #e7e7e7;
+  color: #2a3c5f;
+}
+.answers__answer:hover {
+  color: #e7e7e7;
+  background-color: #2a3c5f;
+}
+.answers__answer:checked + label {
+  border: solid 10px #17459d;
+  background-color: red;
+}
+.answers__answer-radio {
+  color: #17459d;
+  margin-left: 1rem;
+}
+.answers__answer-radio:hover {
+  background-color: #727980;
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: #17459d;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  transform: scaleX(1.2) scaleY(1.4);
+  background-color: #17459d;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.button--skip {
+  margin-right: 1rem;
+}/*# sourceMappingURL=home.css.map */
