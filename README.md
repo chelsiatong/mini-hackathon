@@ -2,7 +2,7 @@
 ## This was a project done in a group setting with: 
 - Chelsia Tong (Front-end)
 - Victory Onuoha (JS script)
-- Me (Full-stack/Lead)
+- Juan Jose Vanegas Maya (Full-stack/Lead)
 
 ## Presentation of the project:
 ![image](https://user-images.githubusercontent.com/39928097/174853099-bf4da79e-c656-4fe4-8d69-5bb0a5a303f4.png)
