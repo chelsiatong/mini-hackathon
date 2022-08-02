@@ -1,8 +1,8 @@
 # Mini-hackathon: He said, She said - The Office Edition
 ## This was a project done in a group setting with: 
-- Chelsia Tong (Front-end)
+- Chelsia Tong (HTML/ CSS)
 - Victory Onuoha (JS script)
-- Juan Jose Vanegas Maya (Full-stack/Lead)
+- Juan Jose Vanegas Maya (Front-End/Lead)
 
 ## Presentation of the project:
 ![image](https://user-images.githubusercontent.com/39928097/174853099-bf4da79e-c656-4fe4-8d69-5bb0a5a303f4.png)
